@@ -1,6 +1,6 @@
 plugins {
 	kotlin("jvm") version "2.2.21"
-	kotlin("plugin.spring") version "2.2.21"
+	kotlin("plugin.spring") version "2.2.21" // 코틀린을 스프링에서 사용할 때 에러 방지
 	id("org.springframework.boot") version "4.0.6"
 	id("io.spring.dependency-management") version "1.1.7"
 }
